@@ -105,16 +105,22 @@ hr {
   width: 15%;
 }
 
-.java-img {
+.study-img {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
 
-.python-img {
+.conversation-img {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.chat-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .btn {
