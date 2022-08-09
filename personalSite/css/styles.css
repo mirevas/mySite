@@ -19,6 +19,7 @@ h2 {
   color: #66BFBF;
   font-weight: normal;
   padding-bottom: 10px;
+  padding-top: 50px;
 }
 
 h3 {
@@ -38,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: lightslategray;
 }
 
 hr {
@@ -58,8 +59,43 @@ hr {
   padding-top: 100px;
 }
 
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: 100px;
+    width: 100px;
+    background-color: #66BFBF;
+    margin: auto;
+    border-radius: 50%;
+}
+
 .middle-container {
   padding: 100px 0;
+}
+
+.title-image {
+  width: 60rem;
+  position: relative;
+  opacity: 0.8;
+}
+
+.keywords {
+  background-color: #EAF6F6;
 }
 
 .keyword-row {

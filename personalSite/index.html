@@ -4,61 +4,96 @@
 <head>
   <meta charset="utf-8">
   <title>Aurora Stan</title>
-  <link rel="stylesheet" href="css/styles.css">
+  
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-  <div class="top-container">
+  <!-- top-container -->
+  <section class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Aurora.</h1>
-    <h2>an incoming <span class="underline">SDE</span>!</h2>
+    <h1>Hi, I'm Aurora.</h1>
+    <h2>Never stop <span class="underline">LEARNING</span>!!!📝</h2>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="me-img" src="images/me.png" alt="me">
-      <h2>Hello.</h2>
-      <p class="intro">I'm a graduate student in New York University. I will graduate in December 2022 and I'm currently looking for a full time job. Feel free to contact me!</p>
-    </div>
-    <hr>
-    <div class="keywords">
-      <h2>My Keywords.</h2>
-      <div class="keyword-row">
-        <img class="study-img" src="images/study.png" alt="study">
-        <h3>Self-learner</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+    <img class="title-image" src="images/mountain.png" alt="mountain-img">
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonial-carousel" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active container-fluid">
+        <img class="testimonial-image" src="images/me.png" alt="me">
+        <h2>Hello.</h2>
+        <p>I'm a graduate student, majored in Computer Engineering, in New York University.</p>
+        <p>I will graduate in December 2022 and I'm currently looking for a full time SDE job.</p>
+        <p>Check <a href="https://mirevas.github.io/Resume/">My Resume</a> and feel free to contact me!</p>
       </div>
-      <div class="keyword-row">
-        <img class="conversation-img" src="images/conversation.png" alt="conversation">
-        <h3>Cooperator</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-      </div>
-      <div class="keyword-row">
-        <img class="chat-img" src="images/chat.png" alt="chat">
-        <h3>Leader</h3>
-        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      <div class="carousel-item container-fluid">
+        <img class="testimonial-image" src="images/me-friends.png" alt="me-friends">
+        <h2>Nice to meet you, my friends.</h2>
+        <p>I come from Sichuan Province, 🇨🇳China and I love travelling~ </p>
+        <p>I have been to 🇲🇾Malaysia, 🇸🇬Singapore, 🇹🇭Thailand, 🇻🇳Vietnam, 🇮🇩Indonesia, 🇺🇸United States... </p>
+        <p>Check my<a href="https://space.bilibili.com/401994233">Videos</a> and <a href="https://www.instagram.com/mi.revas/?hl=en">Photos</a> here and let's be friends!</p>
       </div>
     </div>
+    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </section>
+
+  <!-- keywords -->
+  <section class="keywords">
+    <h2>My Keywords.</h2>
+    <div class="keyword-row">
+      <img class="study-img" src="images/study.png" alt="study">
+      <h3>Self-learner</h3>
+      <p>Throughout my life, I have always maintained the quality of "Stay Hungry Stay Foolish", as much as possible in the textbooks, in practice, in the network resources to obtain new knowledge independently, as much as possible to stand on the shoulders of giants to look into the distance.</p>
+    </div>
+    <div class="keyword-row">
+      <img class="conversation-img" src="images/conversation.png" alt="conversation">
+      <h3>Cooperator</h3>
+      <p>One person can go fast, but a group of people can go farther. I pay much attention to developing my teamwork skills, how to communicate efficiently with team members, how to discuss and make decisions on issues.</p>
+    </div>
+    <div class="keyword-row">
+      <img class="chat-img" src="images/chat.png" alt="chat">
+      <h3>Leader</h3>
+      <p>Leadership ability is a major criterion for judging the ability of individuals. I am good at thinking and learning from experience: how to use the strengths of each team member, how to manage time and project process, how to make decisions when there are setbacks, and how to inspire people.</p>
+    </div>
     <hr>
-    <div class="contact-me">
+  </section>
+
+  <!-- contact-me -->
+  <section class="contact-me">
       <h2>Get In Touch</h2>
-      <h3>If you are looking for a potential excellent developers,</h3>
-      <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <h3>Let's work together:)</h3>
+      <p class="contact-message"></p>
       <a class="btn" href="mailto:aaaurorastan@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
+  </section>
 
-
-  <div class="bottom-container">
+  <!-- bottom-container -->
+  <section class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/zhangluo-zhang-b12257218/">LinkedIn</a>
     <a class="footer-link" href="https://github.com/mirevas">Github</a>
     <p class="copyright">© 2022 Aurora Stan.</p>
-  </div>
+  </section>
 
 </body>
 
