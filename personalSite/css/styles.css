@@ -19,7 +19,7 @@ h2 {
   color: #66BFBF;
   font-weight: normal;
   padding-bottom: 10px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 h3 {
@@ -61,13 +61,9 @@ hr {
 
 /* Testimonial Section */
 
-#testimonials {
-  background-color: #ef8172;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
+#testimonial-carousel {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .testimonial-image {
@@ -96,6 +92,7 @@ hr {
 
 .keywords {
   background-color: #EAF6F6;
+  padding-top: 50px;
 }
 
 .keyword-row {
@@ -109,9 +106,8 @@ hr {
   margin: auto;
 }
 
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
+.contact-me {
+  padding-bottom: 50px;
 }
 
 .copyright {
